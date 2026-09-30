@@ -1,0 +1,21 @@
+{
+  "gradient_boosting": {
+    "WAPE": 0.096,
+    "MAE": 9.689,
+    "RMSE": 12.659
+  },
+  "seasonal_naive_lag7": {
+    "WAPE": 0.1923,
+    "MAE": 19.394,
+    "RMSE": 27.881
+  },
+  "moving_average_28d": {
+    "WAPE": 0.2642,
+    "MAE": 26.648,
+    "RMSE": 35.242
+  },
+  "wape_improvement_vs_best_baseline_pct": 50.1,
+  "horizon_days": 7,
+  "train_rows": 24200,
+  "test_rows": 3680
+}
